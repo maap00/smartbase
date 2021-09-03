@@ -1,0 +1,25 @@
+{
+    "name": "Octoplace",
+    "version": "1.0.0",
+    "description": "Octoplace",
+    "main": "index.js",
+    "scripts": {
+      "dev": "nodemon src/index.js",
+      "start": "node src/index.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/maap00/smartbase.git"
+    },
+    "author": "Marco Astudillo",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/maap00/smartbase/issues"
+    },
+    "homepage": "https://github.com/maap00/smartbase",
+    "dependencies": {
+      "express": "^4.17.1",
+      "morgan": "^1.10.0",
+      "nodemon": "^2.0.7"
+    }
+  }
